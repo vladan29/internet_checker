@@ -46,6 +46,10 @@ class InternetManager private constructor(context: Context) : NetworkCallback() 
     private var mLastConnectionState = false
     private val mNetworkLiveData = NetworkLiveData.get()
 
+    init {
+        deliverEvent()
+    }
+
     override fun onAvailable(network: Network) {
         super.onAvailable(network)
         mAliveNetworks.add(network)
