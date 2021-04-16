@@ -18,6 +18,7 @@ class InternetManager private constructor(context: Context) : NetworkCallback() 
         private lateinit var mInstance: InternetManager
 
         @MainThread
+        @JvmStatic
         fun getInternetManager(context: Context):InternetManager{
             mInstance = if (::mInstance.isInitialized) mInstance else
                 InternetManager(context)
