@@ -9,6 +9,7 @@ class NetworkLiveData private constructor(): MutableLiveData<NetworkState>() {
         private lateinit var mInstance: NetworkLiveData
 
         @MainThread
+        @JvmStatic
         fun get(): NetworkLiveData {
             mInstance = if (::mInstance.isInitialized) mInstance else NetworkLiveData()
             return mInstance
