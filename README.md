@@ -76,4 +76,4 @@ private NetworkLiveData networkLiveData = NetworkLiveData.get();
 }
 ~~~
 
-
+Mail address internet.checker.vladan29@gmail.com
