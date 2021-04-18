@@ -1,6 +1,7 @@
 # internet_checker
 
 minSdkVersion 21 -> Android 5.0 (API level 21)
+
 This code does check a network state using a Network state object.
 
 ~~~
