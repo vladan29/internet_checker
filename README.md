@@ -1,9 +1,10 @@
 # internet_checker
 
+[![](https://jitpack.io/v/vladan29/internet_checker.svg)](https://jitpack.io/#vladan29/internet_checker)
+
 minSdkVersion 21 -> Android 5.0 (API level 21)
 
 This code does check a network state using a Network state object.
-[![](https://jitpack.io/v/vladan29/internet_checker.svg)](https://jitpack.io/#vladan29/internet_checker)
 
 ~~~
 class NetworkState(
